@@ -21,12 +21,12 @@ To assign a shortcut to an element you should only use the <b>setShortcutKey()</
 The following shows how the shortcut method, defined with the key combination <b>ALT + RETURN</b>, would be set in the <b>#example</b> element:
 <br></br>
 <code>
-  $("#example").setShortcutKey( <br />
-    ALT , <br />
-    RETURN , <br />
-    function() { <br />
-      alert("Hello world!"); <br />
-    } <br />
+  $("#example").setShortcutKey(
+  <div>    ALT ,</div>
+    RETURN ,
+    function() {
+      alert("Hello world!");
+    }
   );
 </code>
 <br></br>
