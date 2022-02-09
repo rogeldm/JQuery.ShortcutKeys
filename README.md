@@ -47,7 +47,7 @@ $("#example").setShortcutKey(
 ``` 
 
 <br>
-<b>CONSTANTS</b>
+<b>CONSTANTS:</b>
 <br>
 <br>
 <table>
