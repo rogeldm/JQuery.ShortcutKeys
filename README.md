@@ -19,15 +19,7 @@ To assign a shortcut to an element you should only use the <b>setShortcutKey()</
 </table>
 <br></br>
 The following shows how the shortcut method, defined with the key combination <b>ALT + RETURN</b>, would be set in the <b>#example</b> element:
-<br></br>
-####Code Blocks (Indented style)
 
-Indented 4 spaces, like `<pre>` (Preformatted Text).
-
-    <?php
-        echo "Hello world!";
-    ?>
-<code>
   $("#example").setShortcutKey(
   <div>    ALT ,</div>
     RETURN ,
@@ -35,12 +27,11 @@ Indented 4 spaces, like `<pre>` (Preformatted Text).
       alert("Hello world!");
     }
   );
-</code>
-<br></br>
-<br></br>
+
+
 You can also set the key code as shown below and the result will remain the same:
-<br></br>
-<code>
+
+
   $("#example").setShortcutKey( <br />
     18 , <br />
     13 , <br />
@@ -48,11 +39,9 @@ You can also set the key code as shown below and the result will remain the same
       alert("Hello world!"); <br />
     } <br />
   );
-</code>
-<br></br>
-<br></br>
+  
 <b>CONSTANTS</b>
-<br></br>
+
 <table>
   <tr>
     <th>Constant</th>
