@@ -17,18 +17,19 @@ To assign a shortcut to an element you should only use the <b>setShortcutKey()</
     <td>Defines the function that will be assigned to the shortcut</td>
   </tr>
 </table>
-<br></br>
+
+
 The following shows how the shortcut method, defined with the key combination <b>ALT + RETURN</b>, would be set in the <b>#example</b> element:
 
-
-  $("#example").setShortcutKey(
-    ALT ,
-    RETURN ,
-    function() {
-      alert("Hello world!");
-    }
-  );
-    
+```javascript
+	$("#example").setShortcutKey(
+		ALT ,
+		RETURN ,
+		function() {
+			alert("Hello world!");
+		}
+	);
+``` 
   
  
 
