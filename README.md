@@ -20,6 +20,11 @@ To assign a shortcut to an element you should only use the <b>setShortcutKey()</
 <br></br>
 The following shows how the shortcut method, defined with the key combination <b>ALT + RETURN</b>, would be set in the <b>#example</b> element:
 
+
+    <?php
+        echo "Hello world!";
+    ?>
+    
   $("#example").setShortcutKey(
   <div>    ALT ,</div>
     RETURN ,
@@ -27,7 +32,7 @@ The following shows how the shortcut method, defined with the key combination <b
       alert("Hello world!");
     }
   );
-
+ 
 
 You can also set the key code as shown below and the result will remain the same:
 
